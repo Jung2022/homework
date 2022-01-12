@@ -1,0 +1,39 @@
+
+
+
+
+section fieldset{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+section legend{
+    text-align:left;
+}
+section label{
+    float: left;
+}
+section .submit{
+    float: right;
+    margin-top: 5px;
+    padding-right: 50px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+.input li {
+    margin-bottom: 10px;
+
+}
+
+.list li {
+
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+
+

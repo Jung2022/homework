@@ -1,0 +1,14 @@
+nav h1{
+    margin-left: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 50px;
+}
+
+nav li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

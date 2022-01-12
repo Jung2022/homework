@@ -1,0 +1,27 @@
+header{
+    height: 300px;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+header div.login{
+    float: right;
+}
+header div.menu{
+    border-top: 10px double bisque;
+    border-bottom: 10px double bisque;
+    clear: right; 
+
+}
+header ul.list2{
+    list-style-type: none;
+    width: 1200px;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+    margin: 5px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 가입</title>
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/section_login.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+    <header>
+        <h1 title="메인화면으로" onclick="main()">VICTORIA 3</h1>
+            <div class="login">
+                <ul>
+                    <li onclick="login()">로그인</li>
+                    <li onclick="join()">회원가입</li>
+                </ul>
+
+            </div>
+        <div class="menu">
+            <ul class="list2">
+                <li onclick="introduce()">소개문</li>
+                <li onclick="VIC3()">VIC3 게시판</li>
+                <li>타게임 게시판</li>
+                <li>자유 게시판</li>
+                <li onclick="login()">내 정보</li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <nav>
+            <br><br>
+            <h1>내 정보</h1>
+            <ul>
+                <li onclick="login()">로그인</li>
+                <li onclick="join()">회원가입</li>
+                <li>개인정보수정</li>
+                <li>메일&쪽지</li>
+                <li>나의 활동</li>
+            </ul>
+        </nav>
+        <section>
+            <form action="database.jsp" method="post" name="frm">
+                <fieldset>
+                    <legend><h1>기본 회원정보 입력</h1></legend>
+                    <ul class="list">
+                        <li>아이디</li>
+                        <li>패스워드</li>
+                        <li>패스워드 확인</li>
+                        <li>성별</li>
+                        <li>생년월일(선택사항)</li>
+                        <li>휴대폰 번호(선택사항)</li>
+                        <li>E-mail(선택사항)</li>
+                    </ul>
+                    <ul class="input"> 
+                        <li>
+                            <input type="text" name="id"> 
+                        </li>
+                        <li>
+                            <input type="text" name="passwd">
+                        </li>
+                        <li>
+                            <input type="text" name="passwd_correct">
+                        </li>
+                        <li>
+                            <input type="radio" name="gender" value="male">남성 
+                            <input type="radio" name="gender" value="female">여성 
+                        </li>
+                        <li>
+                            <input type="date" name="birth"></li>
+                        <li>
+                            <input type="tel" name="phone">
+                            </li>
+                        <li>
+                            <input type="email" name="email"></li>
+                    </ul>
+                </fieldset>
+                <div class="submit">
+                    <input type="button" value="회원가입" onclick="checkedForm()"> &nbsp
+                    <input type="reset" value="초기화">
+                </div>
+            </form>
+        </section>
+        <aside>
+            <h3>Paradox사의 다른 게임 하러가기</h3>
+            <br>
+            <a href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank">
+                <img src="img/ck3.png" alt="Crusader Kings III" title="Crusader Kings III">
+            </a>
+            <a href="https://store.steampowered.com/app/236850/Europa_Universalis_IV/" target="_blank">
+                <img src="img/eu4.png" alt="Europa Universalis IV" title="Europa Universalis IV">
+            </a>
+            <a href="https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"  target="_blank">
+                <img src="img/hoi4.png" alt="Hearts of Iron IV" title="Hearts of Iron IV">
+            </a>
+            <a href="https://store.steampowered.com/app/281990/Stellaris/" target="_blank">
+                <img src="img/steallaris.png" alt="Stellaris" title="Stellaris">
+            </a>         
+        </aside>
+    </div>
+    <footer>
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nulla temporibus. Suscipit, consequatur perspiciatis! Illum maxime quia, eligendi excepturi architecto blanditiis? Dolor, unde eius. Eius voluptatum dicta nulla? Ab, quibusdam?</h2>
+    </footer>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/join.js"></script>
+</body>
+</html>

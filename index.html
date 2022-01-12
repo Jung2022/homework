@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>메인 화면</title>
+    <link rel="stylesheet" href="css/frame_main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/scetion_main.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 title="메인화면으로" onclick="main()">VICTORIA 3</h1>
+            <div class="login">
+                <ul>
+                    <li onclick="login()">로그인</li>
+                    <li onclick="join()">회원가입</li>
+                </ul>
+
+            </div>
+        <div class="menu">
+            <ul class="list2">
+                <li onclick="introduce()">소개문</li>
+                <li onclick="VIC3()">VIC3 게시판</li>
+                <li>타게임 게시판</li>
+                <li>자유 게시판</li>
+                <li onclick="login()">내 정보</li>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <section>
+            <h1>VICTORIA3 공식 트레일러</h1>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/siZXs4d5Gqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="https://store.steampowered.com/app/529340/Victoria_3/" target="_blank">
+                <img src="img/vic3.png" alt="Victoria 3" title="Victoria 3">
+            </a> 
+        </section>
+
+        <aside>
+            <h3>Paradox사의 다른 게임 하러가기</h3>
+            <br>
+            <a href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank">
+                <img src="img/ck3.png" alt="Crusader Kings III" title="Crusader Kings III">
+            </a>
+            <a href="https://store.steampowered.com/app/236850/Europa_Universalis_IV/" target="_blank">
+                <img src="img/eu4.png" alt="Europa Universalis IV" title="Europa Universalis IV">
+            </a>
+            <a href="https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/"  target="_blank">
+                <img src="img/hoi4.png" alt="Hearts of Iron IV" title="Hearts of Iron IV">
+            </a>
+            <a href="https://store.steampowered.com/app/281990/Stellaris/" target="_blank">
+                <img src="img/steallaris.png" alt="Stellaris" title="Stellaris">
+            </a>         
+        </aside>
+    </div>
+
+    <footer>
+        <input type="button" value="현재시각" class="time">
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nulla temporibus. Suscipit, consequatur perspiciatis! Illum maxime quia, eligendi excepturi architecto blanditiis? Dolor, unde eius. Eius voluptatum dicta nulla? Ab, quibusdam?</h2>
+    </footer>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+
+</body>
+</html>
